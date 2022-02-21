@@ -12,6 +12,17 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   @override
+  void initState() {
+    getData();
+    super.initState();
+  }
+
+  getData() {
+    // Uri addressUri = Uri.parse(uri)
+    // http.get(addressUri);
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
